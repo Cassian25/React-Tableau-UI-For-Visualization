@@ -1,17 +1,21 @@
-Here's the improved project description for your GitHub repository:
+Here's the updated project description for your GitHub repository, including the additional features of filters, clearing data, downloads, and pop-ups:
 
 ---
 
 # React Tableau-Like Data Visualization Tool
 
-Welcome to the **React Tableau-Like Data Visualization Tool**! This project is a powerful, flexible, and interactive data visualization tool built with React.js, inspired by Tableau. It offers a wide range of features including various aggregation functions, dynamic charts, and extensive data manipulation capabilities.
+Welcome to the **React Tableau-Like Data Visualization Tool**! This project is a powerful, flexible, and interactive data visualization tool built with React.js, inspired by Tableau. It offers a wide range of features including various aggregation functions, dynamic charts, extensive data manipulation capabilities, and more.
 
 ## Features
 
 - **Aggregation Functions**: Perform various aggregation functions such as Sum, Average, Count, Count Distinct, Mode, Minimum, Maximum, Median, Range, and Percentage on your data.
 - **Dynamic Charts**: Support for multiple chart types including Bar, Line, Pie, Polar Area, Radar, Scatter, and Bubble charts.
 - **Interactive Data Manipulation**: Drag-and-drop functionality for headers, adjustable modal and table sizes, and real-time updates.
+- **Drag-and-Drop Headers**: Drag and drop headers into a designated area to create a table or chart with the dragged headers' data.
+- **Filters**: Apply various filters to your data to refine and focus your analysis.
+- **Clear Data**: Easily clear data to reset your workspace and start fresh.
 - **Data Export**: Download your data in CSV or Excel format directly from the application.
+- **Pop-ups**: Use pop-up modals to display detailed information or additional options.
 - **Responsive Design**: Ensures a seamless experience across different devices and screen sizes.
 
 ## Getting Started
@@ -49,9 +53,15 @@ Ensure you have the following installed on your local development machine:
 
 2. **Choose Aggregation Functions**: Select the aggregation functions you want to apply to your data from the available options.
 
-3. **Create Charts**: Drag and drop headers to create dynamic and interactive charts. Customize the chart types and view real-time updates as you manipulate your data.
+3. **Create Charts and Tables**: Drag and drop headers into the designated area to create dynamic and interactive charts or tables with the dragged headers' data. Customize the chart types and view real-time updates as you manipulate your data.
 
-4. **Export Data**: Download your manipulated data in CSV or Excel format for further analysis or reporting.
+4. **Apply Filters**: Use the filtering options to narrow down your data and focus on specific subsets.
+
+5. **Clear Data**: Reset your workspace with the clear data option to remove all current data and start anew.
+
+6. **Export Data**: Download your manipulated data in CSV or Excel format for further analysis or reporting.
+
+7. **Use Pop-ups**: Utilize pop-up modals to display additional information or provide extra functionalities.
 
 ## Components
 
