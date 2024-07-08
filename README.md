@@ -1,4 +1,4 @@
-Here's the updated project description for your GitHub repository, including the additional features of filters, clearing data, downloads, and pop-ups:
+Here's the updated project description for your GitHub repository, including the feature of dragging and dropping headers from the sidebar into a container area to show the data of the dropped headers:
 
 ---
 
@@ -11,7 +11,7 @@ Welcome to the **React Tableau-Like Data Visualization Tool**! This project is a
 - **Aggregation Functions**: Perform various aggregation functions such as Sum, Average, Count, Count Distinct, Mode, Minimum, Maximum, Median, Range, and Percentage on your data.
 - **Dynamic Charts**: Support for multiple chart types including Bar, Line, Pie, Polar Area, Radar, Scatter, and Bubble charts.
 - **Interactive Data Manipulation**: Drag-and-drop functionality for headers, adjustable modal and table sizes, and real-time updates.
-- **Drag-and-Drop Headers**: Drag and drop headers into a designated area to create a table or chart with the dragged headers' data.
+- **Drag-and-Drop Headers**: Upload your dataset to display the headers in the sidebar. Drag and drop headers into the designated container area to create a table or chart with the dropped headers' data.
 - **Filters**: Apply various filters to your data to refine and focus your analysis.
 - **Clear Data**: Easily clear data to reset your workspace and start fresh.
 - **Data Export**: Download your data in CSV or Excel format directly from the application.
@@ -53,7 +53,7 @@ Ensure you have the following installed on your local development machine:
 
 2. **Choose Aggregation Functions**: Select the aggregation functions you want to apply to your data from the available options.
 
-3. **Create Charts and Tables**: Drag and drop headers into the designated area to create dynamic and interactive charts or tables with the dragged headers' data. Customize the chart types and view real-time updates as you manipulate your data.
+3. **Create Charts and Tables**: Drag and drop headers from the sidebar into the designated container area to create dynamic and interactive charts or tables with the dragged headers' data. Customize the chart types and view real-time updates as you manipulate your data.
 
 4. **Apply Filters**: Use the filtering options to narrow down your data and focus on specific subsets.
 
@@ -70,6 +70,12 @@ The entry point of the application, responsible for setting up routing and lazy 
 
 ### `Dashboard.js`
 The main interface where users interact with the tool, upload data, and create visualizations.
+
+### `Sidebar.js`
+Displays the headers of the uploaded data, allowing users to drag and drop them into the container area.
+
+### `ContainerArea.js`
+The area where users can drop headers from the sidebar to create tables or charts.
 
 ### `ResizableTableModal.js`
 A resizable modal that displays the uploaded data in a table format. It allows users to download data and provides a responsive interface.
