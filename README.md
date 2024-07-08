@@ -1,4 +1,11 @@
-# Getting Started with Create React App
+Welcome to the React Tableau-Like Data Visualization Tool! This project is a powerful, flexible, and interactive data visualization tool built with React.js, inspired by Tableau. It offers a wide range of features including various aggregation functions, dynamic charts, and extensive data manipulation capabilities.
+
+Features
+Aggregation Functions: Perform various aggregation functions such as Sum, Average, Count, Count Distinct, Mode, Minimum, Maximum, Median, Range, and Percentage on your data.
+Dynamic Charts: Support for multiple chart types including Bar, Line, Pie, Polar Area, Radar, Scatter, and Bubble charts.
+Interactive Data Manipulation: Drag-and-drop functionality for headers, adjustable modal and table sizes, and real-time updates.
+Data Export: Download your data in CSV or Excel format directly from the application.
+Responsive Design: Ensures a seamless experience across different devices and screen sizes.# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
